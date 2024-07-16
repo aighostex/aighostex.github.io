@@ -1,0 +1,125 @@
+attribution { font-size: 11px; text-align: center; }
+    .attribution{
+        display: inline-flex;
+        margin-top: 1.5rem;
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%);
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+    
+    :root {
+        /* Primary Colors */
+        --p-nutmeg: hsl(14, 45%, 36%);
+        --p-dark-raspberry: hsl(332, 51%, 32%);
+        /* Neutral Colors */
+        --n-white: hsl(0, 0%, 100%);
+        --n-rose-white: hsl(330, 100%, 98%);
+        --n-eggshell: hsl(30, 54%, 90%);
+        --n-light-grey: hsl(30, 18%, 87%);
+        --n-wenge-brown: hsl(30, 10%, 34%);
+        --n-dark-charcoal: hsl(24, 5%, 18%);
+      }
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Outfit', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--n-wenge-brown);
+        display: flex;
+        background-color: var(--n-eggshell);
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        line-height: 1.5rem;
+    }
+    .container{
+        background-color: var(--n-white);
+        border-radius: 20px;
+        align-items: center;
+        justify-content: center;
+        width: 84%;
+        margin: 0 auto;
+        padding: 40px;
+    }
+    .image{
+        border-radius: 20px;
+        width: 100%;
+    }
+    h1{
+        font-family: 'Young Serif', sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        color: var(--n-dark-charcoal);
+    }
+    .preparation{
+        padding: 40px;
+        border-radius: 20px;
+        background-color: var(--n-rose-white);
+    }
+    .time{
+        color: var(--p-dark-raspberry);
+        padding-bottom: 20px;
+    }
+    .preparation1{
+        padding-left: 2rem;
+        margin-bottom: 1.5rem;
+        color: var(--n-dark-charcoal);
+    }
+    p{
+        margin-bottom: 1rem;
+
+    }
+    h2{
+        font-family: 'Young Serif', sans-serif;
+        margin: 1rem 0 1rem 0;
+        color: var(--p-nutmeg);
+        padding: 0;
+    }
+    li::marker{
+        color: var(--p-nutmeg);
+    }
+    .ingredients1{
+        margin: 1rem 0 1.5rem 0;
+        line-height: 2rem;
+        padding-left: 20px;
+    }
+    .instructions{
+        padding: auto;
+        margin: 1.5rem 0 1.5rem 0;
+    }
+    .instructions1{
+        padding-left: 20px;
+        line-height: 2rem;
+        margin: 1rem 0 1.5rem 0;
+    }
+    .nutrition1{
+        margin: 1rem 0 1.5rem 0;
+    }
+    .table1{
+        padding-left: 40px;
+        border-collapse: separate;
+    }
+    tr{
+        display: block;
+        border-bottom: 1px solid;
+        width: 100%;
+    }
+    td{
+        display: inline-block;
+        width: 230px;
+    }
+    .secondColm{
+        padding: 8px 0 0 70px;
+        color: hsl(14, 45%, 36%);
+    }
